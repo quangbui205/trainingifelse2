@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhap vao gia tri cua a: ");
+    let b = +prompt("Nhap vao gia tri cua b: ");
+    if ((a == 0) && (b !=0))
+    {
+        alert(" Phuong trinh Vo Nghiem.");
+    }
+    else if ((b == 0) && (a==0))
+    {
+        alert("Phuong trinh co vo so nghiem.");
+    }
+    else if ((a!=0) && (b==0))
+    {
+        alert("Phuong trinh co Nghiem duy nhat x = 0");
+    }
+    else
+    {
+        let num = -b/a;
+        alert("Nghiem cua phuong trinh la: " +num);
+    }
+</script>
+</body>
+</html>

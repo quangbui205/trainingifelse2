@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhap vao 1 so nguyen duong a bat ky: ");
+    let b = +prompt("Nhap vao 1 so nguyen duong b bat ky: ");
+    let c = +prompt("Nhap vao 1 so nguyen duong c bat ky: ");
+    if ((a > 0) && (b > 0) && (c > 0))
+    {
+        if ((a +b > c) && (a +c > b) && ( b + c > a))
+        {
+            alert(" Ba so Nguyen "  + a + " , " + b+ " , " + c + " , " + " la 3 canh cua 1 tam giac.");
+        }
+        else
+        {
+            alert(" Ba so Nguyen "  + a + " , " + b+ " , " + c + " , " + " Khong la 3 canh cua 1 tam giac.");
+        }
+    }
+    else
+    {
+        alert(" Ba so Nguyen "  + a + " , " + b+ " , " + c + " , " + "Khong la 3 canh cua 1 tam giac.");
+    }
+</script>
+</body>
+</html>
